@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend implementation of covid19 statistics using HIGHCHARTS, FETCHAPI and ASYNC/AWAIT">
+    <meta name="author" content="Azubuike Golden GOLDevv">
+    <meta name="keywords" content="highcharts, fetchapi, async, await, pie, line, chart, promises, covid19">
+    
+    <title>COVID19 CHART</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>covid19 statistics</h1>
+    </header>
+
+    <main>
+        <figure class="pie-table">
+    
+            <!-- Overview table -->
+            <table class="counttable">
+                <thead>
+                    <tr>
+                        <th>Desc</th>
+                        <th>Count</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+    
+            <!-- Pie chart container -->
+            <div id="pie"></div>
+        </figure>
+    
+        <!-- Select history days -->
+        <div class="settings">
+    
+            <button data-btn="all">All History</button>
+            <button data-btn="5">Past 5days</button>
+            <button data-btn="50">Past 50days</button>
+            <button data-btn="100">Past 100days</button>
+            <button data-btn="200">Past 200days</button>
+            <button data-btn="300">Past 300days</button>
+            <button data-btn="400">Past 400days</button>
+            <button data-btn="500">Past 500days</button>
+            <button data-btn="600">Past 600days</button>
+    
+        </div>
+    
+        <!-- Line chart container -->
+        <figure>
+    
+            <div id="container"></div>
+            
+        </figure>
+    </main>
+
+    
+    <!-- Footer -->
+    <footer>
+        <p>
+            developed with <span style="color: red;">&hearts;</span> by <a title="github" style="color: #fff;" href="https:/github.com/GoldenHub" target="_blank" rel="noopener noreferrer">GOLDevv</a>
+        </p>
+        <p>
+            credit: <a title="https://disease.sh" style="color: #fff;" href="https://disease.sh" target="_blank" rel="noopener noreferrer">disease.sh</a>
+        </p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
