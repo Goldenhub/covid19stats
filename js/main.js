@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
             style: {
                 fontFamily: 'monospace',
             },
-            backgroundColor: 'black',
+            backgroundColor: 'black'
         },
         title: {
             text: 'COVID-19 HISTORICAL REPORT',

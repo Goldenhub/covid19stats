@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 90vw;
+    width: 95vw;
     background-color: #000000;
     color: #ffffff;
     font-family: monospace;
@@ -25,10 +25,9 @@ h1 {
 }
 
 #container{
-    max-width: 100%;
-    min-width: 90%;
+    min-width: 70%;
     height: 70%;
-    width: 85%;
+    width: 100%;
     margin: auto;
 }
 
