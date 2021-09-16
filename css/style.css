@@ -21,13 +21,14 @@ h1 {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
 #container{
     max-width: 100%;
-    min-width: 320px;
+    min-width: 90%;
     height: 70%;
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 
@@ -40,7 +41,8 @@ h1 {
 
 .pie-table {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 60vw;
     margin: 50px auto;
 }
@@ -64,6 +66,7 @@ button {
     border: 3px solid rgb(75, 75, 75);
     background-color: transparent;
     cursor: pointer;
+    margin: 5px 3px;
 }
 
 button:hover {
@@ -73,6 +76,10 @@ button:hover {
 .counttable td, .counttable th {
     border: 2px solid #ffffff;
     padding: 10px;
+}
+
+.counttable th {
+    background-color: rgb(75, 75, 75);
 }
 
 .counttable {

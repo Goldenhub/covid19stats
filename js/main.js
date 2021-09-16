@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     });
 
-    fetchDataForLineChart("all");
+    fetchDataForLineChart("5");
     fetchDataForPieChart();
 
 
@@ -26,10 +26,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 fontFamily: 'monospace',
             },
             backgroundColor: 'black',
-            scrollablePlotArea: {
-                minWidth: 700,
-                scrollPositionX: 1
-            }
         },
         title: {
             text: 'COVID-19 HISTORICAL REPORT',
@@ -46,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
             max: 19,
             scrollbar: {
                 enabled: true
-          }
+            }
         },
         yAxis: {
             title: {
