@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 90vw;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: monospace;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#container{
+    max-width: 100%;
+    min-width: 320px;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+}
+
+#pie {
+    max-width: 90vw;
+    min-width: 320px;
+    height: 70%;
+    align-self: flex-end;
+}
+
+.pie-table {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 50px auto;
+}
+
+label {
+    margin: 30px auto 20px;
+    display: block;
+    text-align: center;
+
+}
+
+div.settings {
+    width: fit-content;
+    margin: 100px auto 30px;
+}
+
+button {
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: 3px solid rgb(75, 75, 75);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.counttable td, .counttable th {
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+
+.counttable {
+    border-collapse: collapse;
+}
+
+footer {
+    margin: 100px auto 5px;
+}
+
+footer p {
+    text-align: center;
+}
+
