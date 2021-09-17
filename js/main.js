@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     selected: true
                 }, {
                     name: 'Recovered',
-                    color: '#2bff00',
+                    color: '#0fda65',
                     y: (resp.recovered/resp.cases)*100
                 }, {
                     name: 'Death',
