@@ -151,13 +151,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 colorByPoint: true,
                 data: [{
                     name: 'Active Cases',
-                    color: '#ff0',
+                    color: '#7cb5ec',
                     y: (resp.active/resp.cases)*100 ,
                     sliced: true,
                     selected: true
                 }, {
                     name: 'Recovered',
-                    color: '#444',
+                    color: '#90ed7d',
                     y: (resp.recovered/resp.cases)*100
                 }, {
                     name: 'Death',
