@@ -76,6 +76,10 @@ button {
     margin: 5px 3px;
 }
 
+.selected {
+    background-color: rgb(75, 75, 75);
+}
+
 button:hover {
     background-color: rgb(75, 75, 75);
 }

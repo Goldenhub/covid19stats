@@ -6,6 +6,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     dataButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            dataButtons.forEach(b => {
+                b.classList.remove('selected');
+            });
+            btn.classList.add('selected');
+
             fetchDataForLineChart(e.currentTarget.dataset.btn);
         })
     });
@@ -80,13 +86,13 @@ document.addEventListener('DOMContentLoaded', function () {
             }, 
             {
                 name: 'deaths',
-                color: '#f00',
+                color: '#d00',
                 data: Object.values(resp.deaths)
             },
             {
                 name: 'recovered',
                 data: Object.values(resp.recovered),
-                color: '#0f0'
+                color: '#0fda65'
             }
         ]
     });
